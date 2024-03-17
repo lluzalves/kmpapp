@@ -1,4 +1,4 @@
-##KMP — Implementing the expected/actual mechanism.
+## KMP — Implementing the expected/actual mechanism.
 
 Medium Article - https://medium.com/@spparks_/kmp-implementing-the-expected-actual-mechanism-57d51d76a2c9
 

@@ -1,7 +1,5 @@
 Medium Article - https://medium.com/@spparks_/kmp-implementing-the-expected-actual-mechanism-57d51d76a2c9
 
 
-"Kotlin provides a language mechanism called expected/actual to access platform-specific APIs while developing common logic; this structure makes multiplatform development easier and cleaner.
-It can be applied to functions, properties, objects, and classes (for classes, it is stable but still in beta).
-With expected and actual declarations, we can successfully separate the platform-specific implementations from the application-shared code. 
-This allows seamless integrations between the shared and platform modules in the KMP project...."
+![Simulator Screen Recording - iPhone 15 Pro - 2024-03-17 at 18 02 59](https://github.com/lluzalves/kmpapp/assets/8259531/b18699b3-1e2c-457a-bf78-ab5d921f4c6e) 
+![0_EkqupIK_hQZ_0s9p](https://github.com/lluzalves/kmpapp/assets/8259531/98c7e95d-1eb0-4022-8e5a-093d7177e783)

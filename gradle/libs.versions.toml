@@ -5,7 +5,9 @@ compose = "1.6.0"
 compose-compiler = "1.5.4"
 compose-material3 = "1.1.2"
 androidx-activityCompose = "1.8.0"
-koin = "3.4.2"
+koin = "3.5.6"
+koin-ksp="1.3.1"
+ksp = "1.9.0-1.0.13"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -17,6 +19,11 @@ compose-foundation = { module = "androidx.compose.foundation:foundation", versio
 compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "compose-material3" }
 koin = { module = "io.insert-koin:koin-core", version.ref = "koin" }
 koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+koin-annotations = { module = "io.insert-koin:koin-annotations", version.ref = "koin-ksp" }
+koin-compiler = { module = "io.insert-koin:koin-ksp-compiler", version.ref = "koin-ksp" }
+koin-test = { module = "io.insert-koin:koin-test", version.ref = "koin" }
+ksp-google = {module = "com.google.devtools.ksp:symbol-processing-api", version.ref="ksp"}
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
@@ -25,3 +32,5 @@ kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 kotlinCocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
 jetbrainsCompose = {id = "org.jetbrains.compose", version.ref="compose"}
+ksp-kmp = {id = "com.google.devtools.ksp", version.ref= "ksp"}
+

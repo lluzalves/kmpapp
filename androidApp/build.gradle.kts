@@ -1,6 +1,9 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinAndroid)
+    alias(libs.plugins.jetbrainsCompose)
+    alias(libs.plugins.composeCompiler)
+    alias(libs.plugins.kotlinSerialization)
 }
 
 android {
@@ -38,12 +41,16 @@ android {
     }
 }
 
-dependencies {
-    implementation(projects.shared)
-    implementation(libs.compose.ui)
-    implementation(libs.compose.ui.tooling.preview)
-    implementation(libs.compose.material3)
-    implementation(libs.androidx.activity.compose)
-    implementation(libs.koin.android)
-    debugImplementation(libs.compose.ui.tooling)
-}
+    dependencies {
+        implementation(projects.shared)
+        implementation(libs.compose.ui)
+        implementation(libs.koin.android)
+        implementation(libs.compose.ui.tooling.preview)
+        implementation(libs.compose.material3)
+        implementation(libs.androidx.activity.compose)
+        implementation(libs.kotlinx.coroutines.android)
+        implementation(libs.ktor.logging)
+        implementation(libs.volley)
+        debugImplementation(libs.compose.ui.tooling)
+        implementation(libs.sqldelight.db.android)
+    }
